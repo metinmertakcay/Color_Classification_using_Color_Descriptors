@@ -27,7 +27,7 @@ The test images should be placed under the test folder and the train images shou
 >The images has been read in the L, u, v color space.
 
 <p align="center">
-	![Number of images found in the train and test sets](/images/table.JPG)
+	<img src="/images/table.JPG" alt="Number of images found in the train and test sets" width="400" height="120">
 </p>
 
 >Color histogram was calculated for each image. Histogram was performed by calcHist method in OpenCv. Histogram values ​​were normalized after creation of the histogram. By selecting the bin-size 16, the number of features has been reduced.
@@ -50,5 +50,5 @@ The test images should be placed under the test folder and the train images shou
 - In the images used in training and test set, the areas outside the objects are different color from the actual object. Therefore, these areas affect classification.
 
 <p align="center">
-	![Confusion Matrix](/images/confusion.JPG)
+	<img src="/images/confusion.JPG" alt="Confusion Matrix" width="300" height="300">
 </p>
